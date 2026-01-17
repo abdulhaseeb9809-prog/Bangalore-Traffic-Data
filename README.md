@@ -3,7 +3,7 @@
 Traffic in Bengaluru isn’t random — it follows clear, measurable patterns.
 This project uses data science and machine learning to understand where congestion happens, why it happens, and what can be done about it.
 
-# What This Project Does
+## What This Project Does
 
 - Analyzes traffic patterns across major Bengaluru areas and roads
 - Identifies congestion hotspots using data
@@ -11,7 +11,7 @@ This project uses data science and machine learning to understand where congesti
 - Predicts congestion levels using a machine learning model
 - Detects unusual traffic events like accidents or sudden jams
 
-# What’s Inside
+## What’s Inside
 
 Complete notebook with:
 
@@ -24,7 +24,7 @@ Complete notebook with:
 Dataset
 Realistic traffic data including volume, speed, congestion, incidents, weather, and road conditions.
 
-# Machine Learning Model (Why It Matters)
+## Machine Learning Model (Why It Matters)
 
 A Random Forest Classifier is used to predict congestion levels
 (Low / Medium / High) based on factors like:
@@ -36,7 +36,7 @@ A Random Forest Classifier is used to predict congestion levels
 - Public transport usage
 - Incident reports
 
-## Why this model?
+### Why this model?
 
 - Works well with real-world, noisy data
 - Captures non-linear traffic behavior
@@ -50,7 +50,7 @@ Accuracy: ~94%
 - Alert authorities about high-risk roads
 - Support better urban planning decisions
 
-# Extra Insight: Anomaly Detection
+## Extra Insight: Anomaly Detection
 
 Using Isolation Forest, the project also flags:
 
@@ -60,7 +60,7 @@ Using Isolation Forest, the project also flags:
 
 This helps in early incident detection, not just prediction.
 
-# Key Takeaway
+## Key Takeaway
 
 Bengaluru’s traffic problem is not a mystery — it’s a data problem.
 
@@ -70,6 +70,6 @@ With simple analysis, visualizations, and ML:
 - Understand their causes
 - And make smarter, data-backed decisions
 
-# Tools Used
+## Tools Used
 
 Python · Pandas · NumPy · Matplotlib · Seaborn · Plotly · Scikit-learn · Jupyter Notebook
